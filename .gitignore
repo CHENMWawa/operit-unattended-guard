@@ -1,0 +1,10 @@
+state.json
+**/state.json
+*.log
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+research/
+plugin_backup*/
