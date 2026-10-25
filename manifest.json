@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "toolpkg_id": "local.operit.unattended_guard",
+  "version": "0.2.0",
+  "api_version": "1.0.1",
+  "main": "main.js",
+  "display_name": {
+    "zh": "无人值守守护",
+    "en": "Unattended Guard"
+  },
+  "description": {
+    "zh": "面板控制的会话静默恢复守护，默认关闭",
+    "en": "UI-controlled idle chat recovery, off by default"
+  },
+  "subpackages": [
+    {
+      "id": "unattended_guard",
+      "entry": "packages/guard.js",
+      "enabled_by_default": true
+    }
+  ]
+}
